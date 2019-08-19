@@ -10,11 +10,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/cfgfile"
+	"github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/x-pack/functionbeat/config"
 )
 
 // FunctionCmd is the command of the function.

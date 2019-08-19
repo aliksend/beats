@@ -12,7 +12,7 @@ updating YAML manifests under this folder.
 
 ### Settings
 
-We use official [Beats Docker images](https://github.com/elastic/beats-docker),
+We use official [Beats Docker images](https://github.com/aliksend/beats-docker),
 as they allow external files configuration, a [ConfigMap](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
 is used for kubernetes specific settings. Check [auditbeat-configmap.yaml](auditbeat-configmap.yaml)
 for details.

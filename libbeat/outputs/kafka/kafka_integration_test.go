@@ -32,14 +32,14 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	_ "github.com/elastic/beats/libbeat/outputs/codec/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codec/json"
-	"github.com/elastic/beats/libbeat/outputs/outest"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/fmtstr"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/outputs"
+	_ "github.com/aliksend/beats/libbeat/outputs/codec/format"
+	_ "github.com/aliksend/beats/libbeat/outputs/codec/json"
+	"github.com/aliksend/beats/libbeat/outputs/outest"
 )
 
 const (

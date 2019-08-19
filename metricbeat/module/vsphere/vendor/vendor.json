@@ -129,5 +129,5 @@
 			"revisionTime": "2017-08-02T21:42:08Z"
 		}
 	],
-	"rootPath": "github.com/elastic/beats/metricbeat/module/vsphere"
+	"rootPath": "github.com/aliksend/beats/metricbeat/module/vsphere"
 }

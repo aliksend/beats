@@ -20,9 +20,9 @@ package docker
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/docker"
+	"github.com/aliksend/beats/libbeat/autodiscover/template"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/docker"
 )
 
 // Config for docker autodiscover provider

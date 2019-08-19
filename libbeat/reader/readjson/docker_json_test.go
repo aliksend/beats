@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/reader"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/reader"
 )
 
 func TestDockerJSON(t *testing.T) {

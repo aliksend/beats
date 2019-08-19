@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // ConfigOverrides overrides the defaults provided by libbeat.

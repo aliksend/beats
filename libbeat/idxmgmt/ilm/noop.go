@@ -18,8 +18,8 @@
 package ilm
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 type noopSupport struct{}

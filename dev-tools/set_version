@@ -5,7 +5,7 @@ import re
 import sys
 from subprocess import check_call
 
-vendored_libbeat = os.path.normpath("vendor/github.com/elastic/beats")
+vendored_libbeat = os.path.normpath("vendor/github.com/aliksend/beats")
 
 
 goversion_var_libbeat = "defaultBeatVersion"		# version in libbeat
@@ -13,7 +13,7 @@ goversion_var = "appVersion"						# version for custom beats
 
 
 def get_rootfolder():
-    vendored_libbeat = os.path.normpath("vendor/github.com/elastic/beats")
+    vendored_libbeat = os.path.normpath("vendor/github.com/aliksend/beats")
     script_directory = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
     index = script_directory.find(vendored_libbeat)
     if index > 0:

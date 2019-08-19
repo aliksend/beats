@@ -24,7 +24,7 @@ import (
 	p "path"
 	"strings"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 
 	"github.com/pkg/errors"
 )

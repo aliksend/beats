@@ -32,8 +32,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/heartbeat/monitors/wrappers"
-	"github.com/elastic/beats/libbeat/common/x509util"
+	"github.com/aliksend/beats/heartbeat/monitors/wrappers"
+	"github.com/aliksend/beats/libbeat/common/x509util"
 	"github.com/elastic/go-lookslike"
 	"github.com/elastic/go-lookslike/isdef"
 	"github.com/elastic/go-lookslike/validator"

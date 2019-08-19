@@ -21,7 +21,7 @@ import (
 	"github.com/dop251/goja_nodejs/require"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/processors/script/javascript"
+	"github.com/aliksend/beats/libbeat/processors/script/javascript"
 )
 
 func init() {

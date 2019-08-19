@@ -22,8 +22,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/inputsource/tcp"
+	"github.com/aliksend/beats/filebeat/harvester"
+	"github.com/aliksend/beats/filebeat/inputsource/tcp"
 )
 
 type config struct {

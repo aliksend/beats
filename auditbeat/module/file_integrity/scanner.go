@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // scannerID is used as a global monotonically increasing counter for assigning

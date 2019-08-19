@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // extract is the E of a ETL processing. Gets the data files, used/free space and temp free space data that is fetch

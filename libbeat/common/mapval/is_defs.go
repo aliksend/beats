@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // KeyPresent checks that the given key is in the map, even if it has a nil value.

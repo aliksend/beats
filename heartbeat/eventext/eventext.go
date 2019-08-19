@@ -18,8 +18,8 @@
 package eventext
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // MergeEventFields merges the given common.MapStr into the given Event's Fields.

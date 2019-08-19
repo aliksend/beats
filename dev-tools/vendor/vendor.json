@@ -1,6 +1,6 @@
 {
 	"comment": "",
-	"ignore": "test github.com/elastic/beats",
+	"ignore": "test github.com/aliksend/beats",
 	"package": [
 		{
 			"checksumSHA1": "Hc4yYaBrUJXrXge+C5PecOIFX84=",
@@ -81,5 +81,5 @@
 			"revisionTime": "2018-05-20T07:57:22Z"
 		}
 	],
-	"rootPath": "github.com/elastic/beats/dev-tools"
+	"rootPath": "github.com/aliksend/beats/dev-tools"
 }

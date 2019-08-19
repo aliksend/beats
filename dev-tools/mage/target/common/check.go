@@ -20,7 +20,7 @@ package common
 import (
 	"github.com/magefile/mage/mg"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
 )
 
 var checkDeps []interface{}

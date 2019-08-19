@@ -13,14 +13,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
-	"github.com/elastic/beats/x-pack/functionbeat/function/core"
-	"github.com/elastic/beats/x-pack/functionbeat/function/provider"
-	"github.com/elastic/beats/x-pack/libbeat/licenser"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/processors"
+	"github.com/aliksend/beats/x-pack/functionbeat/config"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/core"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/provider"
+	"github.com/aliksend/beats/x-pack/libbeat/licenser"
 )
 
 var (

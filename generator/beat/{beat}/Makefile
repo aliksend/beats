@@ -3,10 +3,10 @@ BEAT_PATH={beat_path}
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
-ES_BEATS?=./vendor/github.com/elastic/beats
+ES_BEATS?=./vendor/github.com/aliksend/beats
 LIBBEAT_MAKEFILE=$(ES_BEATS)/libbeat/scripts/Makefile
 GOPACKAGES=$(shell govendor list -no-status +local)
-GOBUILD_FLAGS=-i -ldflags "-X $(BEAT_PATH)/vendor/github.com/elastic/beats/libbeat/version.buildTime=$(NOW) -X $(BEAT_PATH)/vendor/github.com/elastic/beats/libbeat/version.commit=$(COMMIT_ID)"
+GOBUILD_FLAGS=-i -ldflags "-X $(BEAT_PATH)/vendor/github.com/aliksend/beats/libbeat/version.buildTime=$(NOW) -X $(BEAT_PATH)/vendor/github.com/aliksend/beats/libbeat/version.commit=$(COMMIT_ID)"
 MAGE_IMPORT_PATH=${BEAT_PATH}/vendor/github.com/magefile/mage
 NO_COLLECT=true
 CHECK_HEADERS_DISABLED=true
@@ -25,10 +25,10 @@ pre-setup: copy-vendor git-init
 # Copy beats into vendor directory
 .PHONY: copy-vendor
 copy-vendor:
-	mkdir -p vendor/github.com/elastic/beats
-	git archive --remote ${BEAT_GOPATH}/src/github.com/elastic/beats HEAD | tar -x --exclude=x-pack -C vendor/github.com/elastic/beats
+	mkdir -p vendor/github.com/aliksend/beats
+	git archive --remote ${BEAT_GOPATH}/src/github.com/aliksend/beats HEAD | tar -x --exclude=x-pack -C vendor/github.com/aliksend/beats
 	mkdir -p vendor/github.com/magefile
-	cp -R vendor/github.com/elastic/beats/vendor/github.com/magefile/mage vendor/github.com/magefile
+	cp -R vendor/github.com/aliksend/beats/vendor/github.com/magefile/mage vendor/github.com/magefile
 
 .PHONY: git-init
 git-init:

@@ -20,7 +20,7 @@ package kafka
 import (
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 type kafkaLogger struct{}

@@ -11,12 +11,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/keystore"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
-	"github.com/elastic/beats/x-pack/functionbeat/manager/core/bundle"
+	"github.com/aliksend/beats/libbeat/cfgfile"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/keystore"
+	"github.com/aliksend/beats/x-pack/functionbeat/config"
+	"github.com/aliksend/beats/x-pack/functionbeat/manager/core/bundle"
 )
 
 // Package size limits for function providers, we should be a lot under this limit but

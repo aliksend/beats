@@ -29,7 +29,7 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 const (

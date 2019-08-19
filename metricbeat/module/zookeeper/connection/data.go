@@ -25,9 +25,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 var capturer = regexp.MustCompile(`/(?P<ip>.*):(?P<port>\d+)\[(?P<interest_ops>\d*)]\(queued=(?P<queued>\d*),recved=(?P<received>\d*),sent=(?P<sent>\d*)\)`)

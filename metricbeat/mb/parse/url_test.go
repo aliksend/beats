@@ -20,9 +20,9 @@ package parse
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

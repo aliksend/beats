@@ -7,10 +7,10 @@ package elb
 import (
 	"time"
 
-	"github.com/elastic/beats/x-pack/libbeat/common/aws"
+	"github.com/aliksend/beats/x-pack/libbeat/common/aws"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/autodiscover/template"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // Config for the aws_elb autodiscover provider.

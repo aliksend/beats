@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/libbeat/mapping"
-	"github.com/elastic/beats/libbeat/template"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/idxmgmt/ilm"
+	"github.com/aliksend/beats/libbeat/mapping"
+	"github.com/aliksend/beats/libbeat/template"
 )
 
 type mockClientHandler struct {

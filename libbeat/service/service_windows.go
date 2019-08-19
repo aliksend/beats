@@ -25,7 +25,7 @@ import (
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/debug"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 type beatService struct{}

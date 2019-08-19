@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch/estest"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch/estest"
 )
 
 func TestLoadPipeline(t *testing.T) {

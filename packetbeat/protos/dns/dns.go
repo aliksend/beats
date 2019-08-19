@@ -34,11 +34,11 @@ import (
 	mkdns "github.com/miekg/dns"
 	"golang.org/x/net/publicsuffix"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/packetbeat/pb"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/packetbeat/pb"
+	"github.com/aliksend/beats/packetbeat/protos"
 )
 
 type dnsPlugin struct {

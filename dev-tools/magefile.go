@@ -21,5 +21,5 @@ package main
 
 import (
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/common"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/common"
 )

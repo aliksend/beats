@@ -20,14 +20,14 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/auditbeat/cmd"
+	"github.com/aliksend/beats/auditbeat/cmd"
 
 	// Register modules.
-	_ "github.com/elastic/beats/auditbeat/module/auditd"
-	_ "github.com/elastic/beats/auditbeat/module/file_integrity"
+	_ "github.com/aliksend/beats/auditbeat/module/auditd"
+	_ "github.com/aliksend/beats/auditbeat/module/file_integrity"
 
 	// Register includes.
-	_ "github.com/elastic/beats/auditbeat/include"
+	_ "github.com/aliksend/beats/auditbeat/include"
 )
 
 func main() {

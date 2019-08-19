@@ -27,10 +27,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/system"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/module/system"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

@@ -34,12 +34,12 @@ import (
 
 	"github.com/prometheus/procfs"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/mapping"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/auditbeat/core"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/mapping"
+	"github.com/aliksend/beats/metricbeat/mb"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 	"github.com/elastic/go-libaudit"
 	"github.com/elastic/go-libaudit/auparse"
 )

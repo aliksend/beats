@@ -21,12 +21,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common/atomic"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/outputs"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/libbeat/publisher"
 	"github.com/elastic/go-lumber/client/v2"
 )
 

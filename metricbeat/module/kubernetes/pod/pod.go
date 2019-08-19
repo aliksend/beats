@@ -18,12 +18,12 @@
 package pod
 
 import (
-	"github.com/elastic/beats/libbeat/common/kubernetes"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/kubernetes/util"
+	"github.com/aliksend/beats/libbeat/common/kubernetes"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/metricbeat/helper"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/metricbeat/module/kubernetes/util"
 )
 
 const (

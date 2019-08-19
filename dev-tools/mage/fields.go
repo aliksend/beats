@@ -180,7 +180,7 @@ func GenerateIncludeListGo(importDirs []string, moduleDirs []string) error {
 }
 
 // toLibbeatLicenseName translates the license type used in packages to
-// the identifiers used by github.com/elastic/beatslibbeat/licenses.
+// the identifiers used by github.com/aliksend/beatslibbeat/licenses.
 func toLibbeatLicenseName(name string) string {
 	switch name {
 	case "ASL 2.0":

@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
 )
 
 const (

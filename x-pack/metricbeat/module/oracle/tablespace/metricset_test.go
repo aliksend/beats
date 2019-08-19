@@ -11,9 +11,9 @@ import (
 
 	_ "gopkg.in/goracle.v2"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/x-pack/metricbeat/module/oracle"
+	"github.com/aliksend/beats/libbeat/tests/compose"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/x-pack/metricbeat/module/oracle"
 )
 
 func TestData(t *testing.T) {

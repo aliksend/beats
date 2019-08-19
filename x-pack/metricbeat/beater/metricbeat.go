@@ -5,10 +5,10 @@
 package beater
 
 import (
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb"
-	xpackmb "github.com/elastic/beats/x-pack/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/paths"
+	"github.com/aliksend/beats/metricbeat/beater"
+	"github.com/aliksend/beats/metricbeat/mb"
+	xpackmb "github.com/aliksend/beats/x-pack/metricbeat/mb"
 )
 
 // WithLightModules enables light modules support

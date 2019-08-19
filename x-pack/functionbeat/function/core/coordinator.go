@@ -10,7 +10,7 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Runner is the interface that the coordinator will follow to manage a function goroutine.

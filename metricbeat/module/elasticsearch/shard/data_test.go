@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

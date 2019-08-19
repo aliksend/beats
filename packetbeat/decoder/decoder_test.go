@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/packetbeat/flows"
+	"github.com/aliksend/beats/packetbeat/protos"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tsg/gopacket"

@@ -22,8 +22,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/meta"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/safemapstr"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/safemapstr"
 )
 
 // MetaGenerator builds metadata objects for pods and containers

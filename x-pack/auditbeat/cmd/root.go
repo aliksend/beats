@@ -5,11 +5,11 @@
 package cmd
 
 import (
-	"github.com/elastic/beats/auditbeat/cmd"
-	xpackcmd "github.com/elastic/beats/x-pack/libbeat/cmd"
+	"github.com/aliksend/beats/auditbeat/cmd"
+	xpackcmd "github.com/aliksend/beats/x-pack/libbeat/cmd"
 
 	// Register Auditbeat x-pack modules.
-	_ "github.com/elastic/beats/x-pack/auditbeat/include"
+	_ "github.com/aliksend/beats/x-pack/auditbeat/include"
 )
 
 // RootCmd to handle beats CLI.

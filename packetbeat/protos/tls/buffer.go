@@ -20,7 +20,7 @@ package tls
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common/streambuf"
+	"github.com/aliksend/beats/libbeat/common/streambuf"
 )
 
 type bufferView struct {

@@ -12,7 +12,7 @@ RUN pip install --upgrade setuptools
 RUN pip install --upgrade docker-compose==1.23.2
 
 # Setup work environment
-ENV HEARTBEAT_PATH /go/src/github.com/elastic/beats/heartbeat
+ENV HEARTBEAT_PATH /go/src/github.com/aliksend/beats/heartbeat
 
 RUN mkdir -p $HEARTBEAT_PATH/build/coverage
 WORKDIR $HEARTBEAT_PATH

@@ -43,7 +43,7 @@ const (
 	// BeatsCrossBuildImage is the image used for crossbuilding Beats.
 	BeatsCrossBuildImage = "docker.elastic.co/beats-dev/golang-crossbuild"
 
-	elasticBeatsImportPath = "github.com/elastic/beats"
+	elasticBeatsImportPath = "github.com/aliksend/beats"
 )
 
 // Common settings with defaults derived from files, CWD, and environment.
@@ -538,7 +538,7 @@ type ProjectRepoInfo struct {
 }
 
 // IsElasticBeats returns true if the current project is
-// github.com/elastic/beats.
+// github.com/aliksend/beats.
 func (r *ProjectRepoInfo) IsElasticBeats() bool {
 	return r.RootImportPath == elasticBeatsImportPath
 }

@@ -22,7 +22,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/winlogbeat/cmd"
+	"github.com/aliksend/beats/winlogbeat/cmd"
 )
 
 var systemTest *bool

@@ -6,9 +6,9 @@ services:
       - proxy_dep
     env_file:
       - ${PWD}/build/test.env
-    working_dir: /go/src/github.com/elastic/beats/x-pack/libbeat
+    working_dir: /go/src/github.com/aliksend/beats/x-pack/libbeat
     volumes:
-      - ${PWD}/../..:/go/src/github.com/elastic/beats/
+      - ${PWD}/../..:/go/src/github.com/aliksend/beats/
       # We launch docker containers to test docker autodiscover:
       - /var/run/docker.sock:/var/run/docker.sock
     command: make

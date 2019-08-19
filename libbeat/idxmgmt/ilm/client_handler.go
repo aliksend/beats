@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // ClientHandler defines the interface between a remote service and the Manager.

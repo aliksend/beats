@@ -22,9 +22,9 @@ package filesystem
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
 
 	"github.com/pkg/errors"
 )

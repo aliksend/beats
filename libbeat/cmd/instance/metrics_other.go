@@ -22,7 +22,7 @@
 package instance
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 func setupMetrics(name string) error {

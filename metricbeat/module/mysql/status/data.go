@@ -18,9 +18,9 @@
 package status
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstrstr"
+	"github.com/aliksend/beats/libbeat/common"
+	s "github.com/aliksend/beats/libbeat/common/schema"
+	c "github.com/aliksend/beats/libbeat/common/schema/mapstrstr"
 )
 
 var (

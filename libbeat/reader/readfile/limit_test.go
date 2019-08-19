@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/reader"
+	"github.com/aliksend/beats/libbeat/reader"
 )
 
 type mockReader struct {

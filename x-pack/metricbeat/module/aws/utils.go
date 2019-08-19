@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi/resourcegroupstaggingapiiface"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
+	"github.com/aliksend/beats/libbeat/common"
+	s "github.com/aliksend/beats/libbeat/common/schema"
 )
 
 // GetStartTimeEndTime function uses durationString to create startTime and endTime for queries.

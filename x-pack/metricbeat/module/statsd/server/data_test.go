@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/helper/server"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/metricbeat/helper/server"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 )
 
 func TestParseMetrics(t *testing.T) {

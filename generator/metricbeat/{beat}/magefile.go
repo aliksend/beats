@@ -27,11 +27,11 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
-	metricbeat "github.com/elastic/beats/metricbeat/scripts/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
+	metricbeat "github.com/aliksend/beats/metricbeat/scripts/mage"
 
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/common"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/common"
 )
 
 func init() {

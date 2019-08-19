@@ -11,10 +11,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/common/cli"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
-	"github.com/elastic/beats/x-pack/functionbeat/function/provider"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/libbeat/common/cli"
+	"github.com/aliksend/beats/x-pack/functionbeat/config"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/provider"
 )
 
 var output string

@@ -20,8 +20,8 @@ package kubernetes
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/autodiscover/template"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // Config for kubernetes autodiscover provider

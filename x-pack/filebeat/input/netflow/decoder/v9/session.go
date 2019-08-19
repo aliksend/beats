@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/atomic"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/template"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/atomic"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/template"
 )
 
 type SessionKey string

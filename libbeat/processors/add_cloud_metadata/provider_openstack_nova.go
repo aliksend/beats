@@ -18,7 +18,7 @@
 package add_cloud_metadata
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 const (

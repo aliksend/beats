@@ -27,7 +27,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
 
 	"github.com/gocarina/gocsv"
 	"github.com/mitchellh/mapstructure"

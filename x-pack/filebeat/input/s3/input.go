@@ -23,13 +23,13 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sqs"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	awscommon "github.com/elastic/beats/x-pack/libbeat/common/aws"
+	"github.com/aliksend/beats/filebeat/channel"
+	"github.com/aliksend/beats/filebeat/input"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/logp"
+	awscommon "github.com/aliksend/beats/x-pack/libbeat/common/aws"
 )
 
 const inputName = "s3"

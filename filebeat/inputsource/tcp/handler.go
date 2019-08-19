@@ -26,9 +26,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/filebeat/inputsource"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // splitHandler is a TCP client that has splitting capabilities.

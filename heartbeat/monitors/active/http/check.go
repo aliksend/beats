@@ -27,9 +27,9 @@ import (
 
 	pkgerrors "github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/conditions"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/match"
+	"github.com/aliksend/beats/libbeat/conditions"
 )
 
 type RespCheck func(*http.Response) error

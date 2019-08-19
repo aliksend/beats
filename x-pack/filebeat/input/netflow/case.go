@@ -9,8 +9,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 var fieldNameConverter = caseConverter{

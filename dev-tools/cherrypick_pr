@@ -114,7 +114,7 @@ def main():
                .format(remote, tmp_branch), shell=True)
     if not args.create_pr:
         print("Done. Open PR by following this URL: \n\t" +
-              "https://github.com/elastic/beats/compare/{}...{}:{}?expand=1"
+              "https://github.com/aliksend/beats/compare/{}...{}:{}?expand=1"
               .format(args.to_branch, remote, tmp_branch))
     else:
         token = open(expanduser("~/.elastic/github.token"), "r").read().strip()

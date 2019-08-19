@@ -29,7 +29,7 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
 )
 
 var (

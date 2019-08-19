@@ -17,7 +17,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow"
 )
 
 var (

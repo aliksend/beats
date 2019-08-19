@@ -29,13 +29,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/tests/resources"
+	"github.com/aliksend/beats/filebeat/channel"
+	"github.com/aliksend/beats/filebeat/input"
+	"github.com/aliksend/beats/filebeat/input/file"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/match"
+	"github.com/aliksend/beats/libbeat/tests/resources"
 )
 
 func TestInputFileExclude(t *testing.T) {

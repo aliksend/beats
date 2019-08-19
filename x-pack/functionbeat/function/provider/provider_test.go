@@ -12,9 +12,9 @@ import (
 	e "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/x-pack/functionbeat/function/core"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/core"
 )
 
 type simpleFunction struct {

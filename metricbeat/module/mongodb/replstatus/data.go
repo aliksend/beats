@@ -18,7 +18,7 @@
 package replstatus
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 func eventMapping(oplogInfo oplogInfo, replStatus MongoReplStatus) common.MapStr {

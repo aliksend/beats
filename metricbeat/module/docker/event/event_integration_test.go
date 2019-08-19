@@ -30,9 +30,9 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/auditbeat/core"
+	"github.com/aliksend/beats/metricbeat/mb"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

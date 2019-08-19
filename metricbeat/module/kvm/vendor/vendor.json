@@ -27,5 +27,5 @@
 			"revisionTime": "2018-03-01T20:00:12Z"
 		}
 	],
-	"rootPath": "github.com/elastic/beats/metricbeat/module/kvm"
+	"rootPath": "github.com/aliksend/beats/metricbeat/module/kvm"
 }

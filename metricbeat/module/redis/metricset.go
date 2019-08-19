@@ -26,7 +26,7 @@ import (
 	rd "github.com/garyburd/redigo/redis"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // MetricSet for fetching Redis server information and statistics.

@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/aliksend/beats/libbeat/paths"
 )
 
 // SetupDataDir sets up a temporary data directory to use for testing.

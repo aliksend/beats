@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/mapval"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/processors/script/javascript"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/mapval"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/processors"
+	"github.com/aliksend/beats/libbeat/processors/script/javascript"
 
 	// Register JS "require" modules.
-	_ "github.com/elastic/beats/libbeat/processors/script/javascript/module"
+	_ "github.com/aliksend/beats/libbeat/processors/script/javascript/module"
 )
 
 var logInputHeaders = []string{

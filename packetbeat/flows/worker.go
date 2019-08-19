@@ -23,11 +23,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/flowhash"
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/flowhash"
+	"github.com/aliksend/beats/packetbeat/procs"
+	"github.com/aliksend/beats/packetbeat/protos/applayer"
 )
 
 type flowsProcessor struct {

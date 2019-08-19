@@ -20,9 +20,9 @@ package module
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/aliksend/beats/libbeat/plugin"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 type modulePlugin struct {

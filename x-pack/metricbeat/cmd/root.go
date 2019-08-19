@@ -9,21 +9,21 @@ import (
 
 	"github.com/spf13/pflag"
 
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/metricbeat/beater"
-	mbcmd "github.com/elastic/beats/metricbeat/cmd"
-	"github.com/elastic/beats/metricbeat/cmd/test"
-	"github.com/elastic/beats/metricbeat/mb/module"
-	xpackcmd "github.com/elastic/beats/x-pack/libbeat/cmd"
-	xpackbeater "github.com/elastic/beats/x-pack/metricbeat/beater"
+	cmd "github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/metricbeat/beater"
+	mbcmd "github.com/aliksend/beats/metricbeat/cmd"
+	"github.com/aliksend/beats/metricbeat/cmd/test"
+	"github.com/aliksend/beats/metricbeat/mb/module"
+	xpackcmd "github.com/aliksend/beats/x-pack/libbeat/cmd"
+	xpackbeater "github.com/aliksend/beats/x-pack/metricbeat/beater"
 
 	// Register the includes.
-	_ "github.com/elastic/beats/x-pack/metricbeat/include"
+	_ "github.com/aliksend/beats/x-pack/metricbeat/include"
 
 	// Import OSS modules.
-	_ "github.com/elastic/beats/metricbeat/include"
-	_ "github.com/elastic/beats/metricbeat/include/fields"
+	_ "github.com/aliksend/beats/metricbeat/include"
+	_ "github.com/aliksend/beats/metricbeat/include/fields"
 )
 
 // Name of this beat

@@ -7,12 +7,12 @@ package v6
 import (
 	"log"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/config"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/fields"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/protocol"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/template"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/v1"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/v5"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/config"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/fields"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/protocol"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/template"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/v1"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/v5"
 )
 
 const (

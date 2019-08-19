@@ -26,25 +26,25 @@ import (
 
 	"github.com/tsg/gopacket/layers"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/service"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/processors"
+	"github.com/aliksend/beats/libbeat/service"
 
-	"github.com/elastic/beats/packetbeat/config"
-	"github.com/elastic/beats/packetbeat/decoder"
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/icmp"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
-	"github.com/elastic/beats/packetbeat/protos/udp"
-	"github.com/elastic/beats/packetbeat/publish"
-	"github.com/elastic/beats/packetbeat/sniffer"
+	"github.com/aliksend/beats/packetbeat/config"
+	"github.com/aliksend/beats/packetbeat/decoder"
+	"github.com/aliksend/beats/packetbeat/flows"
+	"github.com/aliksend/beats/packetbeat/procs"
+	"github.com/aliksend/beats/packetbeat/protos"
+	"github.com/aliksend/beats/packetbeat/protos/icmp"
+	"github.com/aliksend/beats/packetbeat/protos/tcp"
+	"github.com/aliksend/beats/packetbeat/protos/udp"
+	"github.com/aliksend/beats/packetbeat/publish"
+	"github.com/aliksend/beats/packetbeat/sniffer"
 
 	// Add packetbeat default processors
-	_ "github.com/elastic/beats/packetbeat/processor/add_kubernetes_metadata"
+	_ "github.com/aliksend/beats/packetbeat/processor/add_kubernetes_metadata"
 )
 
 // Beater object. Contains all objects needed to run the beat

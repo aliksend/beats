@@ -22,10 +22,10 @@ package metrics
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/helper/prometheus/ptest"
+	"github.com/aliksend/beats/metricbeat/helper/prometheus/ptest"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	_ "github.com/elastic/beats/metricbeat/module/etcd"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	_ "github.com/aliksend/beats/metricbeat/module/etcd"
 )
 
 const testFile = "_meta/test/metrics"

@@ -18,11 +18,11 @@
 package input
 
 import (
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/filebeat/channel"
+	"github.com/aliksend/beats/filebeat/registrar"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/cfgfile"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // RunnerFactory is a factory for registrars

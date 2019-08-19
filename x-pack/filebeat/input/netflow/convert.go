@@ -14,10 +14,10 @@ import (
 
 	"github.com/OneOfOne/xxhash"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/flowhash"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/flowhash"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 var (

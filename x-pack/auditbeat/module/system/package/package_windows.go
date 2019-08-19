@@ -9,7 +9,7 @@ package pkg
 import (
 	"fmt"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 const (

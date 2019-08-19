@@ -22,7 +22,7 @@ package index_recovery
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/aliksend/beats/metricbeat/module/elasticsearch"
 )
 
 func TestMapper(t *testing.T) {

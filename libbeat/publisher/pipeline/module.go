@@ -21,13 +21,13 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/publisher/processing"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/outputs"
+	"github.com/aliksend/beats/libbeat/publisher/processing"
+	"github.com/aliksend/beats/libbeat/publisher/queue"
 )
 
 // Global pipeline module for loading the main pipeline from a configuration object

@@ -22,9 +22,9 @@ package reader
 import (
 	"errors"
 
-	"github.com/elastic/beats/journalbeat/checkpoint"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/journalbeat/checkpoint"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Reader stub for non linux builds.

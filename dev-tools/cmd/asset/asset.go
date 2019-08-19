@@ -26,8 +26,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/elastic/beats/libbeat/asset"
-	"github.com/elastic/beats/licenses"
+	"github.com/aliksend/beats/libbeat/asset"
+	"github.com/aliksend/beats/licenses"
 )
 
 var (

@@ -14,17 +14,17 @@ import (
 	"github.com/magefile/mage/mg"
 
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/common"
-	"github.com/elastic/beats/dev-tools/mage/target/unittest"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/common"
+	"github.com/aliksend/beats/dev-tools/mage/target/unittest"
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/pkg"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/pkg"
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/integtest"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/integtest"
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/unittest"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/unittest"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
-	functionbeat "github.com/elastic/beats/x-pack/functionbeat/scripts/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
+	functionbeat "github.com/aliksend/beats/x-pack/functionbeat/scripts/mage"
 )
 
 var ()

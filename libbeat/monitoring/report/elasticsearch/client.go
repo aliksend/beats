@@ -24,12 +24,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring/report"
-	esout "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring/report"
+	esout "github.com/aliksend/beats/libbeat/outputs/elasticsearch"
+	"github.com/aliksend/beats/libbeat/publisher"
+	"github.com/aliksend/beats/libbeat/testing"
 )
 
 type publishClient struct {

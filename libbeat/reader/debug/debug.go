@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 const (

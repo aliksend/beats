@@ -13,11 +13,11 @@ import (
 	"github.com/awslabs/goformation/cloudformation"
 	merrors "github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/functionbeat/function/provider"
-	"github.com/elastic/beats/x-pack/functionbeat/manager/executor"
-	fnaws "github.com/elastic/beats/x-pack/functionbeat/provider/aws/aws"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/provider"
+	"github.com/aliksend/beats/x-pack/functionbeat/manager/executor"
+	fnaws "github.com/aliksend/beats/x-pack/functionbeat/provider/aws/aws"
 )
 
 const (

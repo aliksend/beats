@@ -21,7 +21,7 @@ import (
 	"flag"
 	"sync"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 var (

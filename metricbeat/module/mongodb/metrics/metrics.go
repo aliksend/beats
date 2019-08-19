@@ -20,8 +20,8 @@ package metrics
 import (
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/mongodb"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/module/mongodb"
 
 	"gopkg.in/mgo.v2/bson"
 )

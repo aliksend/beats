@@ -20,7 +20,7 @@
 package service
 
 import (
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry.

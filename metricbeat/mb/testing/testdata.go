@@ -34,12 +34,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/libbeat/asset"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/mapping"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/asset"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/mapping"
+	"github.com/aliksend/beats/metricbeat/mb"
 
-	_ "github.com/elastic/beats/metricbeat/include/fields"
+	_ "github.com/aliksend/beats/metricbeat/include/fields"
 )
 
 const (

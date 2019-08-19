@@ -21,7 +21,7 @@
 package outputs
 
 import (
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/aliksend/beats/libbeat/publisher"
 )
 
 // Client provides the minimal interface an output must implement to be usable

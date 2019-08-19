@@ -5,7 +5,7 @@
 package provider
 
 import (
-	"github.com/elastic/beats/libbeat/feature"
+	"github.com/aliksend/beats/libbeat/feature"
 )
 
 // getNamespace return the namespace for functions of a specific provider. The registry have a flat view

@@ -26,11 +26,11 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/winlogbeat/checkpoint"
-	"github.com/elastic/beats/winlogbeat/sys"
-	win "github.com/elastic/beats/winlogbeat/sys/eventlogging"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/winlogbeat/checkpoint"
+	"github.com/aliksend/beats/winlogbeat/sys"
+	win "github.com/aliksend/beats/winlogbeat/sys/eventlogging"
 )
 
 const (

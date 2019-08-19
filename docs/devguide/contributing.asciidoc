@@ -31,7 +31,7 @@ core team will backport your PR if it is necessary.
 
 In the pull request, describe what your changes do and mention
 any bugs/issues related to the pull request. Please also add a changelog entry to
-https://github.com/elastic/beats/blob/master/CHANGELOG.next.asciidoc[CHANGELOG.next.asciidoc].
+https://github.com/aliksend/beats/blob/master/CHANGELOG.next.asciidoc[CHANGELOG.next.asciidoc].
 
 [float]
 [[adding-new-beat]]
@@ -41,7 +41,7 @@ If you want to create a new Beat, please read <<new-beat>>. You don't need to
 submit the code to this repository. Most new Beats start in their own repository
 and just make use of the libbeat packages. After you have a working Beat that
 you'd like to share with others, open a PR to add it to our list of
-https://github.com/elastic/beats/blob/master/libbeat/docs/communitybeats.asciidoc[community
+https://github.com/aliksend/beats/blob/master/libbeat/docs/communitybeats.asciidoc[community
 Beats].
 
 [float]
@@ -62,7 +62,7 @@ beats repository under the new directory:
 [source,shell]
 ----------------------------------------------------------------------
 mkdir -p ${GOPATH}/src/github.com/elastic
-git clone https://github.com/elastic/beats ${GOPATH}/src/github.com/elastic/beats
+git clone https://github.com/aliksend/beats ${GOPATH}/src/github.com/aliksend/beats
 ----------------------------------------------------------------------
 
 NOTE: If you have multiple go paths, use `${GOPATH%%:*}` instead of `${GOPATH}`.
@@ -181,4 +181,4 @@ In most cases `govendor fetch your/dependency@version +out` will get the job don
 
 To keep up to date with changes to the official Beats for community developers,
 follow the developer changelog
-https://github.com/elastic/beats/blob/master/CHANGELOG-developer.next.asciidoc[here].
+https://github.com/aliksend/beats/blob/master/CHANGELOG-developer.next.asciidoc[here].

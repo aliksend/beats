@@ -9,7 +9,7 @@ RUN set -x && \
 RUN pip install --upgrade setuptools
 
 # Setup work environment
-ENV LIBBEAT_PATH /go/src/github.com/elastic/beats/x-pack/libbeat
+ENV LIBBEAT_PATH /go/src/github.com/aliksend/beats/x-pack/libbeat
 
 RUN mkdir -p $LIBBEAT_PATH/build/coverage
 WORKDIR $LIBBEAT_PATH

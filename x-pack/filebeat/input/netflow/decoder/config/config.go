@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/fields"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/fields"
 )
 
 // Config stores the configuration used by the NetFlow Collector.

@@ -9,8 +9,8 @@ package ebs
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/x-pack/metricbeat/module/aws/mtest"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/x-pack/metricbeat/module/aws/mtest"
 )
 
 func TestData(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/beats/x-pack/libbeat/management/api"
+	"github.com/aliksend/beats/x-pack/libbeat/management/api"
 )
 
 // StateEvent is a state change notification.

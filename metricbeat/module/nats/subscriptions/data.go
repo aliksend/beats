@@ -22,9 +22,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/metricbeat/mb"
+	s "github.com/aliksend/beats/libbeat/common/schema"
+	c "github.com/aliksend/beats/libbeat/common/schema/mapstriface"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 var (

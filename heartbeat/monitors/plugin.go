@@ -23,10 +23,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/aliksend/beats/heartbeat/monitors/jobs"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/plugin"
 )
 
 type pluginBuilder struct {

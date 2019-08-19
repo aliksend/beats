@@ -15,12 +15,12 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/awslabs/goformation/cloudformation"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/functionbeat/function/core"
-	"github.com/elastic/beats/x-pack/functionbeat/function/provider"
-	"github.com/elastic/beats/x-pack/functionbeat/provider/aws/aws/transformer"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/feature"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/core"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/provider"
+	"github.com/aliksend/beats/x-pack/functionbeat/provider/aws/aws/transformer"
 )
 
 type startingPosition uint

@@ -28,8 +28,8 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
 )
 
 func init() {

@@ -18,7 +18,7 @@
 package token
 
 import (
-	"github.com/elastic/beats/libbeat/conditions"
+	"github.com/aliksend/beats/libbeat/conditions"
 )
 
 type config struct {

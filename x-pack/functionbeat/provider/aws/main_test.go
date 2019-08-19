@@ -10,7 +10,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/x-pack/functionbeat/provider/aws/cmd"
+	"github.com/aliksend/beats/x-pack/functionbeat/provider/aws/cmd"
 )
 
 var systemTest *bool

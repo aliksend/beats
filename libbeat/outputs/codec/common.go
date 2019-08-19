@@ -20,8 +20,8 @@ package codec
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/dtfmt"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/dtfmt"
 	"github.com/elastic/go-structform"
 )
 

@@ -18,11 +18,11 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/reload"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/reload"
+	"github.com/aliksend/beats/libbeat/outputs"
+	"github.com/aliksend/beats/libbeat/publisher/queue"
 )
 
 // outputController manages the pipelines output capabilities, like:

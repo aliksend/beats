@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
 )
 
 // CPU metric types.

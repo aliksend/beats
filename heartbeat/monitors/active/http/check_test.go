@@ -24,12 +24,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/conditions"
+	"github.com/aliksend/beats/libbeat/common/match"
+	"github.com/aliksend/beats/libbeat/conditions"
 )
 
 func TestCheckBody(t *testing.T) {

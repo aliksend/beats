@@ -7,7 +7,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/x-pack/packetbeat/cmd"
+	"github.com/aliksend/beats/x-pack/packetbeat/cmd"
 )
 
 // Setups and Runs Packetbeat

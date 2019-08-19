@@ -9,10 +9,10 @@ package main
 import (
 	"context"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
 
 	// mage:import
-	_ "github.com/elastic/beats/dev-tools/mage/target/common"
+	_ "github.com/aliksend/beats/dev-tools/mage/target/common"
 )
 
 func init() {

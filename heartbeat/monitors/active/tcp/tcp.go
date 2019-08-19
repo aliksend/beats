@@ -23,14 +23,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/monitors/active/dialchain"
-	"github.com/elastic/beats/heartbeat/monitors/jobs"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/heartbeat/monitors"
+	"github.com/aliksend/beats/heartbeat/monitors/active/dialchain"
+	"github.com/aliksend/beats/heartbeat/monitors/jobs"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/outputs"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
 )
 
 func init() {

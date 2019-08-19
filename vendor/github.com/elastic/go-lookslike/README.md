@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/elastic/go-lookslike.svg?branch=master)](https://travis-ci.org/elastic/go-lookslike)
 
-This library is here to help you with all your data validation needs. It's ideally suited to writing tests against JSON-like structures, but can do much much more. We use it in [elastic/beats](https://github.com/elastic/beats) for our own tests. 
+This library is here to help you with all your data validation needs. It's ideally suited to writing tests against JSON-like structures, but can do much much more. We use it in [elastic/beats](https://github.com/aliksend/beats) for our own tests. 
 
 ## Quick Links
 
@@ -25,7 +25,7 @@ If using govendor run:
 
 ## Real World Usage Examples
 
-lookslike was created to improve the testing of various structures in [elastic/beats](https://github.com/elastic/beats). Searching the tests for `lookslike` will show real world usage.
+lookslike was created to improve the testing of various structures in [elastic/beats](https://github.com/aliksend/beats). Searching the tests for `lookslike` will show real world usage.
 
 ## Call for More `isdef`s!
 

@@ -22,7 +22,7 @@ package scheduler
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/helper/prometheus/ptest"
+	"github.com/aliksend/beats/metricbeat/helper/prometheus/ptest"
 )
 
 const testFile = "_meta/test/metrics"

@@ -24,10 +24,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/heartbeat/look"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
 )
 
 // TLSLayer configures the TLS layer in a DialerChain.

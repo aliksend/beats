@@ -10,7 +10,7 @@ retriever: modernSCM(
 pipeline {
   agent none
   environment {
-    BASE_DIR = 'src/github.com/elastic/beats'
+    BASE_DIR = 'src/github.com/aliksend/beats'
   }
   options {
     timeout(time: 1, unit: 'HOURS')

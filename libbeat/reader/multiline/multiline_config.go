@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/aliksend/beats/libbeat/common/match"
 )
 
 // Config holds the options of multiline readers.

@@ -24,12 +24,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors/script/javascript"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/processors/script/javascript"
 
-	_ "github.com/elastic/beats/libbeat/processors/script/javascript/module/require"
+	_ "github.com/aliksend/beats/libbeat/processors/script/javascript/module/require"
 )
 
 func testEvent() *beat.Event {

@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 type HTTP struct {

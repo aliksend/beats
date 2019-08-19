@@ -34,7 +34,7 @@ class Test(BaseTest):
 
         output = self.read_output()
         assert len(output) == 21
-        assert output[0]["message"] == "Fetching main repository github.com/elastic/beats..."
+        assert output[0]["message"] == "Fetching main repository github.com/aliksend/beats..."
         for o in output:
             assert o["stream"] == "stdout"
 

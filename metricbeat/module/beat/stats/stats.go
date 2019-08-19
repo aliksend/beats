@@ -18,9 +18,9 @@
 package stats
 
 import (
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/beat"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/metricbeat/module/beat"
 )
 
 func init() {

@@ -20,25 +20,25 @@ package beater
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common/reload"
-	"github.com/elastic/beats/libbeat/management"
+	"github.com/aliksend/beats/libbeat/common/reload"
+	"github.com/aliksend/beats/libbeat/management"
 
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/aliksend/beats/libbeat/autodiscover"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/cfgfile"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/module"
 
 	// Add autodiscover builders / appenders
-	_ "github.com/elastic/beats/metricbeat/autodiscover"
+	_ "github.com/aliksend/beats/metricbeat/autodiscover"
 
 	// Add metricbeat default processors
-	_ "github.com/elastic/beats/metricbeat/processor/add_kubernetes_metadata"
+	_ "github.com/aliksend/beats/metricbeat/processor/add_kubernetes_metadata"
 )
 
 // Metricbeat implements the Beater interface for metricbeat.

@@ -57,7 +57,7 @@ create-metricset: python-env
 # Generates the data.json example documents
 .PHONY: generate-json
 generate-json: build-image
-	 ${DOCKER_COMPOSE} run beat go test -tags=integration github.com/elastic/beats/metricbeat/module/... -data
+	 ${DOCKER_COMPOSE} run beat go test -tags=integration github.com/aliksend/beats/metricbeat/module/... -data
 
 .PHONY: run-module
 run-module: ## @testing Runs the given module with exposing the port. Needs $MODULE and $PORT as param

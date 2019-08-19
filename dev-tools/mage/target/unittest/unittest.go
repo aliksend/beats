@@ -22,8 +22,8 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
-	"github.com/elastic/beats/dev-tools/mage/target/test"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
+	"github.com/aliksend/beats/dev-tools/mage/target/test"
 )
 
 func init() {

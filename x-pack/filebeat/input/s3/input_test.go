@@ -18,7 +18,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/sqs"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/beat"
 )
 
 // MockS3Client struct is used for unit tests.

@@ -20,7 +20,7 @@ package add_host_metadata
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/processors/util"
+	"github.com/aliksend/beats/libbeat/processors/util"
 )
 
 // Config for add_host_metadata processor.

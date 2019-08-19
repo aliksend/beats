@@ -27,10 +27,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/common/x509util"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/streambuf"
+	"github.com/aliksend/beats/libbeat/common/x509util"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 type direction uint8

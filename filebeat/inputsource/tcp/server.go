@@ -27,10 +27,10 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/libbeat/common/atomic"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
 )
 
 // Server represent a TCP server

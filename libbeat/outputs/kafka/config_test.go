@@ -20,7 +20,7 @@ package kafka
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 func TestConfigAcceptValid(t *testing.T) {

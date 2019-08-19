@@ -30,7 +30,7 @@ import (
 
 var (
 	// GoImportsImportPath controls the import path used to install goimports.
-	GoImportsImportPath = "github.com/elastic/beats/vendor/golang.org/x/tools/cmd/goimports"
+	GoImportsImportPath = "github.com/aliksend/beats/vendor/golang.org/x/tools/cmd/goimports"
 
 	// GoImportsLocalPrefix is a string prefix matching imports that should be
 	// grouped after third-party packages.

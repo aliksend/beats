@@ -21,11 +21,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/metricbeat/beater"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/aliksend/beats/auditbeat/core"
+	"github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/metricbeat/beater"
+	"github.com/aliksend/beats/metricbeat/mb/module"
 )
 
 // Name of the beat (auditbeat).

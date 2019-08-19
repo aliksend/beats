@@ -20,7 +20,7 @@ package input
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/aliksend/beats/libbeat/plugin"
 )
 
 type inputPlugin struct {

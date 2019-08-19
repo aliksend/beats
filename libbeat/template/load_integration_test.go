@@ -32,11 +32,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch/estest"
-	"github.com/elastic/beats/libbeat/version"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch/estest"
+	"github.com/aliksend/beats/libbeat/version"
 )
 
 func init() {

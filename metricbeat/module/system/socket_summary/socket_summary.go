@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/net"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry as soon as the program

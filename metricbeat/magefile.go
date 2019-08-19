@@ -29,11 +29,11 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
-	metricbeat "github.com/elastic/beats/metricbeat/scripts/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
+	metricbeat "github.com/aliksend/beats/metricbeat/scripts/mage"
 
 	// mage:import
-	"github.com/elastic/beats/dev-tools/mage/target/common"
+	"github.com/aliksend/beats/dev-tools/mage/target/common"
 )
 
 func init() {
@@ -126,7 +126,7 @@ func Update() error {
 func MockedTests(ctx context.Context) error {
 	params := devtools.DefaultGoTestUnitArgs()
 
-	params.ExtraFlags = []string{"github.com/elastic/beats/metricbeat/mb/testing/data/."}
+	params.ExtraFlags = []string{"github.com/aliksend/beats/metricbeat/mb/testing/data/."}
 
 	if module := os.Getenv("MODULE"); module != "" {
 		params.ExtraFlags = append(params.ExtraFlags, "-module="+module)

@@ -135,7 +135,7 @@ lint:
 .PHONY: docs
 docs:
 	@$(foreach var,$(PROJECTS),BUILD_DIR=${BUILD_DIR} $(MAKE) -C $(var) docs || exit 1;)
-	sh ./script/build_docs.sh dev-guide github.com/elastic/beats/docs/devguide ${BUILD_DIR}
+	sh ./script/build_docs.sh dev-guide github.com/aliksend/beats/docs/devguide ${BUILD_DIR}
 
 .PHONY: notice
 notice: python-env

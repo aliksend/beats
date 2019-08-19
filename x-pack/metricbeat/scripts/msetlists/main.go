@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/metricbeat/scripts/msetlists"
+	"github.com/aliksend/beats/metricbeat/scripts/msetlists"
 
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/metricbeat/mb"
-	_ "github.com/elastic/beats/x-pack/metricbeat/include"
-	xpackmb "github.com/elastic/beats/x-pack/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/paths"
+	"github.com/aliksend/beats/metricbeat/mb"
+	_ "github.com/aliksend/beats/x-pack/metricbeat/include"
+	xpackmb "github.com/aliksend/beats/x-pack/metricbeat/mb"
 )
 
 func main() {

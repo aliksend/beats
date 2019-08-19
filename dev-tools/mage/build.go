@@ -52,13 +52,13 @@ func DefaultBuildArgs() BuildArgs {
 			"-s", // Strip all debug symbols from binary (does not affect Go stack traces).
 		},
 		Vars: map[string]string{
-			"github.com/elastic/beats/libbeat/version.buildTime": "{{ date }}",
-			"github.com/elastic/beats/libbeat/version.commit":    "{{ commit }}",
+			"github.com/aliksend/beats/libbeat/version.buildTime": "{{ date }}",
+			"github.com/aliksend/beats/libbeat/version.commit":    "{{ commit }}",
 		},
 	}
 
 	if versionQualified {
-		args.Vars["github.com/elastic/beats/libbeat/version.qualifier"] = "{{ .Qualifier }}"
+		args.Vars["github.com/aliksend/beats/libbeat/version.qualifier"] = "{{ .Qualifier }}"
 	}
 
 	repo, err := GetProjectRepoInfo()

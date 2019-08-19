@@ -30,11 +30,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/idxmgmt/ilm"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/version"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/idxmgmt/ilm"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch"
+	"github.com/aliksend/beats/libbeat/outputs/outil"
+	"github.com/aliksend/beats/libbeat/version"
 )
 
 const (

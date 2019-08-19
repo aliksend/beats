@@ -412,7 +412,7 @@ set as the default search fields, then specify the list of fields in the
 For example, here's a snippet that shows how to add default search fields to a
 Metricbeat 6.6 index. This example is truncated. Full examples for Metricbeat
 and Filebeat are available in
-https://github.com/elastic/beats/blob/master/libbeat/docs/troubleshooting/default_field.md[this file]. 
+https://github.com/aliksend/beats/blob/master/libbeat/docs/troubleshooting/default_field.md[this file]. 
 
 [source,js]
 --------------------------------------------------

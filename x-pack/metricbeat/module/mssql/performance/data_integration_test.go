@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	mtest "github.com/elastic/beats/x-pack/metricbeat/module/mssql/testing"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	mtest "github.com/aliksend/beats/x-pack/metricbeat/module/mssql/testing"
 )
 
 func TestData(t *testing.T) {

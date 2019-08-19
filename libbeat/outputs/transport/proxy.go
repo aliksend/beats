@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // ProxyConfig holds the configuration information required to proxy

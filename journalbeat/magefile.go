@@ -29,10 +29,10 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
 
 	// mage:import
-	"github.com/elastic/beats/dev-tools/mage/target/common"
+	"github.com/aliksend/beats/dev-tools/mage/target/common"
 )
 
 func init() {

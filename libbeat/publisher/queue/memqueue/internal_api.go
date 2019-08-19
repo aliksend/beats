@@ -17,7 +17,7 @@
 
 package memqueue
 
-import "github.com/elastic/beats/libbeat/publisher"
+import "github.com/aliksend/beats/libbeat/publisher"
 
 // producer -> broker API
 

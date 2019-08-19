@@ -20,7 +20,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/journalbeat/cmd"
+	"github.com/aliksend/beats/journalbeat/cmd"
 )
 
 func main() {

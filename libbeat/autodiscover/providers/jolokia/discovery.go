@@ -27,11 +27,11 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/bus"
+	s "github.com/aliksend/beats/libbeat/common/schema"
+	c "github.com/aliksend/beats/libbeat/common/schema/mapstriface"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Jolokia Discovery query

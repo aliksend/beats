@@ -21,9 +21,9 @@ import (
 	"github.com/dop251/goja"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/processors/script/javascript"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/processors"
+	"github.com/aliksend/beats/libbeat/processors/script/javascript"
 )
 
 // chainBuilder builds a new processor chain.

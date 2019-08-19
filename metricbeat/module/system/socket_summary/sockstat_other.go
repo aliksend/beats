@@ -19,7 +19,7 @@
 
 package socket_summary
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/aliksend/beats/libbeat/common"
 
 //a stub function for non-linux systems
 //get a list of platform-specific enhancements and apply them to our mapStr object.

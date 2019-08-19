@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/outest"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/outputs/transport/transptest"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/outputs"
+	"github.com/aliksend/beats/libbeat/outputs/outest"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/libbeat/outputs/transport/transptest"
 )
 
 type testSyncDriver struct {

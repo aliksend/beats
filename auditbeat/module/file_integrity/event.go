@@ -38,9 +38,9 @@ import (
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/file"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/file"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // Source identifies the source of an event (i.e. what triggered it).

@@ -18,7 +18,7 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // retryer is responsible for accepting and managing failed send attempts. It

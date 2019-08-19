@@ -7,10 +7,10 @@ package core
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/libbeat/licenser"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common/atomic"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/x-pack/libbeat/licenser"
 )
 
 var errInvalidLicense = errors.New("invalid license detected, cannot publish events")

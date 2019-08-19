@@ -9,9 +9,9 @@ package stats
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 
-	_ "github.com/elastic/beats/x-pack/metricbeat/module/coredns"
+	_ "github.com/aliksend/beats/x-pack/metricbeat/module/coredns"
 )
 
 func TestData(t *testing.T) {

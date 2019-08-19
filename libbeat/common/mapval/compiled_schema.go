@@ -17,7 +17,7 @@
 
 package mapval
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/aliksend/beats/libbeat/common"
 
 type flatValidator struct {
 	path  path

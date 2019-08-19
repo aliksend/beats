@@ -18,7 +18,7 @@
 package processors
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // PluginConfig represents the list of processors.

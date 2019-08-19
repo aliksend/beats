@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	reason2 "github.com/elastic/beats/heartbeat/reason"
-	"github.com/elastic/beats/libbeat/common"
+	reason2 "github.com/aliksend/beats/heartbeat/reason"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // helper

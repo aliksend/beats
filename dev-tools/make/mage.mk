@@ -1,6 +1,6 @@
 MAGE_VERSION     ?= v1.8.0
 MAGE_PRESENT     := $(shell mage --version 2> /dev/null | grep $(MAGE_VERSION))
-MAGE_IMPORT_PATH ?= github.com/elastic/beats/vendor/github.com/magefile/mage
+MAGE_IMPORT_PATH ?= github.com/aliksend/beats/vendor/github.com/magefile/mage
 export MAGE_IMPORT_PATH
 
 .PHONY: mage

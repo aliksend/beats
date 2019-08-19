@@ -20,8 +20,8 @@ package server
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Server type defines all fields of the Server Metricset

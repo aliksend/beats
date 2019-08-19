@@ -20,7 +20,7 @@ package mapval
 import (
 	"reflect"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 func interfaceToMapStr(o interface{}) common.MapStr {

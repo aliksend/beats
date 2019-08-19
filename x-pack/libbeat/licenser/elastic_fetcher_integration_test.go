@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common/cli"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/aliksend/beats/libbeat/common/cli"
+	"github.com/aliksend/beats/libbeat/outputs/elasticsearch"
+	"github.com/aliksend/beats/libbeat/outputs/outil"
 )
 
 const (

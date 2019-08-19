@@ -24,15 +24,15 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/common/match"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/reader/multiline"
-	"github.com/elastic/beats/libbeat/reader/readfile"
-	"github.com/elastic/beats/libbeat/reader/readjson"
+	cfg "github.com/aliksend/beats/filebeat/config"
+	"github.com/aliksend/beats/filebeat/harvester"
+	"github.com/aliksend/beats/filebeat/input/file"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/common/match"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/reader/multiline"
+	"github.com/aliksend/beats/libbeat/reader/readfile"
+	"github.com/aliksend/beats/libbeat/reader/readjson"
 )
 
 var (

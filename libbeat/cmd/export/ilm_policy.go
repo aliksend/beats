@@ -20,9 +20,9 @@ package export
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/idxmgmt"
-	"github.com/elastic/beats/libbeat/idxmgmt/ilm"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/libbeat/idxmgmt"
+	"github.com/aliksend/beats/libbeat/idxmgmt/ilm"
 )
 
 // GenGetILMPolicyCmd is the command used to export the ilm policy.

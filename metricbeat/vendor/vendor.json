@@ -1,6 +1,6 @@
 {
 	"comment": "",
-	"ignore": "test github.com/elastic/beats",
+	"ignore": "test github.com/aliksend/beats",
 	"package": [
 		{
 			"checksumSHA1": "GYschMPw/Zi5C4QnGKRfgljnx/c=",
@@ -64,5 +64,5 @@
 			"revisionTime": "2018-03-26T17:23:32Z"
 		}
 	],
-	"rootPath": "github.com/elastic/beats/metricbeat"
+	"rootPath": "github.com/aliksend/beats/metricbeat"
 }

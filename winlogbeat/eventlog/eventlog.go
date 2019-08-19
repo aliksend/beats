@@ -26,12 +26,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
 
-	"github.com/elastic/beats/winlogbeat/checkpoint"
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/aliksend/beats/winlogbeat/checkpoint"
+	"github.com/aliksend/beats/winlogbeat/sys"
 )
 
 // Debug selectors used in this package.

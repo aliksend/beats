@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/auditbeat/helper/hasher"
-	abtest "github.com/elastic/beats/auditbeat/testing"
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/auditbeat/core"
+	"github.com/aliksend/beats/auditbeat/helper/hasher"
+	abtest "github.com/aliksend/beats/auditbeat/testing"
+	"github.com/aliksend/beats/libbeat/common"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 	"github.com/elastic/go-sysinfo/types"
 )
 

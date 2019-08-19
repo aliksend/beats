@@ -20,7 +20,7 @@ package report
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // Event is the format of monitoring events.

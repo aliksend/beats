@@ -20,11 +20,11 @@ package cassandra
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
 
-	"github.com/elastic/beats/packetbeat/pb"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/aliksend/beats/packetbeat/pb"
+	"github.com/aliksend/beats/packetbeat/protos"
 )
 
 // Transaction Publisher.

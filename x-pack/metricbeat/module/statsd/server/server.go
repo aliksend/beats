@@ -7,10 +7,10 @@ package server
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	serverhelper "github.com/elastic/beats/metricbeat/helper/server"
-	"github.com/elastic/beats/metricbeat/helper/server/udp"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common"
+	serverhelper "github.com/aliksend/beats/metricbeat/helper/server"
+	"github.com/aliksend/beats/metricbeat/helper/server/udp"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 // init registers the MetricSet with the central registry.

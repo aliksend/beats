@@ -22,7 +22,7 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/metricbeat/module/docker"
+	"github.com/aliksend/beats/metricbeat/module/docker"
 )
 
 type BlkioStats struct {

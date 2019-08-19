@@ -13,7 +13,7 @@ services:
       - LS_TCP_PORT=5044
       - LS_TLS_PORT=5055
       # Setup work environment
-      - LIBBEAT_PATH=/go/src/github.com/elastic/beats/libbeat
+      - LIBBEAT_PATH=/go/src/github.com/aliksend/beats/libbeat
       - KAFKA_HOST=kafka
       - KAFKA_PORT=9092
       - KIBANA_HOST=kibana
@@ -23,10 +23,10 @@ services:
     env_file:
       - ${PWD}/build/test.env
     volumes:
-      - ${PWD}/..:/go/src/github.com/elastic/beats/
+      - ${PWD}/..:/go/src/github.com/aliksend/beats/
       # Used for docker integration tests:
       - /var/run/docker.sock:/var/run/docker.sock
-    working_dir: /go/src/github.com/elastic/beats/libbeat
+    working_dir: /go/src/github.com/aliksend/beats/libbeat
     command: make
 
   # This is a proxy used to block beats until all services are healthy.

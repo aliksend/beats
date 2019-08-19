@@ -17,7 +17,7 @@
 
 package add_cloud_metadata
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/aliksend/beats/libbeat/common"
 
 // Tencent Cloud Metadata Service
 // Document https://www.qcloud.com/document/product/213/4934

@@ -16,12 +16,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/auditbeat/core"
-	abtest "github.com/elastic/beats/auditbeat/testing"
-	"github.com/elastic/beats/libbeat/common"
-	sock "github.com/elastic/beats/metricbeat/helper/socket"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/auditbeat/core"
+	abtest "github.com/aliksend/beats/auditbeat/testing"
+	"github.com/aliksend/beats/libbeat/common"
+	sock "github.com/aliksend/beats/metricbeat/helper/socket"
+	"github.com/aliksend/beats/metricbeat/mb"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 	"github.com/elastic/gosigar/sys/linux"
 )
 

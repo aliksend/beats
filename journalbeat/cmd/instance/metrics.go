@@ -24,7 +24,7 @@ import (
 
 	"github.com/coreos/go-systemd/sdjournal"
 
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/monitoring"
 )
 
 var (

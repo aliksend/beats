@@ -8,7 +8,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/x-pack/metricbeat/cmd"
+	"github.com/aliksend/beats/x-pack/metricbeat/cmd"
 )
 
 var systemTest *bool

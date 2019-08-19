@@ -18,7 +18,7 @@
 package dhcpv4
 
 import (
-	"github.com/elastic/beats/packetbeat/config"
+	"github.com/aliksend/beats/packetbeat/config"
 )
 
 type dhcpv4Config struct {

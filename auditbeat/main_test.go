@@ -23,7 +23,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/elastic/beats/auditbeat/cmd"
+	"github.com/aliksend/beats/auditbeat/cmd"
 )
 
 var systemTest *bool

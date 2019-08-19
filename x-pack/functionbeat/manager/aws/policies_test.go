@@ -10,9 +10,9 @@ import (
 	"github.com/awslabs/goformation/cloudformation"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/x-pack/functionbeat/function/provider"
-	fnaws "github.com/elastic/beats/x-pack/functionbeat/provider/aws/aws"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/provider"
+	fnaws "github.com/aliksend/beats/x-pack/functionbeat/provider/aws/aws"
 )
 
 func TestConfig(t *testing.T) {

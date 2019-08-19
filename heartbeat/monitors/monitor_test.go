@@ -26,7 +26,7 @@ import (
 
 	"github.com/elastic/go-lookslike/testslike"
 
-	"github.com/elastic/beats/heartbeat/scheduler"
+	"github.com/aliksend/beats/heartbeat/scheduler"
 )
 
 func TestMonitor(t *testing.T) {

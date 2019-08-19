@@ -20,7 +20,7 @@
 package nginx
 
 import (
-	"github.com/elastic/beats/libbeat/asset"
+	"github.com/aliksend/beats/libbeat/asset"
 )
 
 func init() {

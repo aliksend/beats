@@ -28,11 +28,11 @@ import (
 	"github.com/pkg/errors"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/kibana"
-	"github.com/elastic/beats/libbeat/logp"
-	mlimporter "github.com/elastic/beats/libbeat/ml-importer"
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/kibana"
+	"github.com/aliksend/beats/libbeat/logp"
+	mlimporter "github.com/aliksend/beats/libbeat/ml-importer"
+	"github.com/aliksend/beats/libbeat/paths"
 )
 
 var availableMLModules = map[string]string{

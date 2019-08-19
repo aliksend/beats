@@ -10,7 +10,7 @@ RUN set -x && \
 RUN pip install --upgrade setuptools
 
 # Setup work environment
-ENV JOURNALBEAT_PATH /go/src/github.com/elastic/beats/journalbeat
+ENV JOURNALBEAT_PATH /go/src/github.com/aliksend/beats/journalbeat
 
 RUN mkdir -p $JOURNALBEAT_PATH/build/coverage
 WORKDIR $JOURNALBEAT_PATH

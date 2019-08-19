@@ -52,4 +52,4 @@ program is generated based on a filter policy created by you.
 
 Please open a PR to submit your project.
 
-- [elastic/beats](https://www.github.com/elastic/beats)
+- [elastic/beats](https://www.github.com/aliksend/beats)

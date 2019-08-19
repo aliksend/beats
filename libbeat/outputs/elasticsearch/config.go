@@ -20,7 +20,7 @@ package elasticsearch
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
 )
 
 type elasticsearchConfig struct {

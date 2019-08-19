@@ -31,13 +31,13 @@ import (
 	"github.com/coreos/go-systemd/sdjournal"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/journalbeat/checkpoint"
-	"github.com/elastic/beats/journalbeat/cmd/instance"
-	"github.com/elastic/beats/journalbeat/config"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/backoff"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/journalbeat/checkpoint"
+	"github.com/aliksend/beats/journalbeat/cmd/instance"
+	"github.com/aliksend/beats/journalbeat/config"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/backoff"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Reader reads entries from journal(s).

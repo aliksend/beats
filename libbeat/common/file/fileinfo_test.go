@@ -31,7 +31,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common/file"
+	"github.com/aliksend/beats/libbeat/common/file"
 )
 
 func TestStat(t *testing.T) {

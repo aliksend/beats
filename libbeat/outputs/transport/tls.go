@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/testing"
 )
 
 // TLSConfig is the interface used to configure a tcp client or server from a `Config`

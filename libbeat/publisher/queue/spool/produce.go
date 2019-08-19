@@ -20,10 +20,10 @@ package spool
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common/atomic"
+	"github.com/aliksend/beats/libbeat/publisher"
+	"github.com/aliksend/beats/libbeat/publisher/queue"
 )
 
 // forgetfulProducer forwards event to the inBroker. The forgetfulProducer

@@ -27,10 +27,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/auditbeat/core"
-	"github.com/elastic/beats/auditbeat/datastore"
-	abtest "github.com/elastic/beats/auditbeat/testing"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/auditbeat/core"
+	"github.com/aliksend/beats/auditbeat/datastore"
+	abtest "github.com/aliksend/beats/auditbeat/testing"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

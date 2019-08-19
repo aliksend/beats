@@ -18,7 +18,7 @@
 package autodiscover
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common"
 )
 
 // Config settings for Autodiscover

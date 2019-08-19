@@ -3,7 +3,7 @@ PWD=$(shell pwd)
 PYTHON_ENV?=${BUILD_DIR}/python-env
 BEAT_TYPE?=beat
 BEAT_PATH=${BUILD_DIR}/src/beatpath/testbeat
-ES_BEATS=${GOPATH}/src/github.com/elastic/beats
+ES_BEATS=${GOPATH}/src/github.com/aliksend/beats
 PREPARE_COMMAND?=
 
 # Runs test build for mock beat
@@ -27,14 +27,14 @@ test: prepare-test
 .PHONY: prepare-test
 prepare-test:: python-env
 	# Makes sure to use current version of beats for testing
-	rm -fr ${BUILD_DIR}/src/github.com/elastic/beats/
-	git clone -s ${PWD}/../../ ${BUILD_DIR}/src/github.com/elastic/beats/
+	rm -fr ${BUILD_DIR}/src/github.com/aliksend/beats/
+	git clone -s ${PWD}/../../ ${BUILD_DIR}/src/github.com/aliksend/beats/
 
 	rm -fr ${BEAT_PATH}
 	mkdir -p ${BEAT_PATH}
 	export GOPATH=${PWD}/build ; \
 	. ${PYTHON_ENV}/bin/activate && \
-	  python ${PWD}/build/src/github.com/elastic/beats/script/generate.py \
+	  python ${PWD}/build/src/github.com/aliksend/beats/script/generate.py \
 	    --type=${BEAT_TYPE} \
 	    --project_name=Testbeat \
 	    --github_name=ruflin \
@@ -45,7 +45,7 @@ prepare-test:: python-env
 .PHONY: test-build
 test-build: test
 	# Copy dev tools
-	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/elastic/beats/
+	cp -r ${PWD}/../../../dev-tools ${BEAT_PATH}/vendor/github.com/aliksend/beats/
 
 	cd ${BEAT_PATH}/dev-tools/packer ; \
 	$(MAKE) deps ; \

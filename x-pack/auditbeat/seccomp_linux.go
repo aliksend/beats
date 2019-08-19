@@ -7,7 +7,7 @@ package main
 import (
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/common/seccomp"
+	"github.com/aliksend/beats/libbeat/common/seccomp"
 )
 
 func init() {

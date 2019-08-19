@@ -24,11 +24,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/beat"
-	_ "github.com/elastic/beats/metricbeat/module/beat/state"
-	_ "github.com/elastic/beats/metricbeat/module/beat/stats"
+	"github.com/aliksend/beats/libbeat/tests/compose"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/metricbeat/module/beat"
+	_ "github.com/aliksend/beats/metricbeat/module/beat/state"
+	_ "github.com/aliksend/beats/metricbeat/module/beat/stats"
 )
 
 var metricSets = []string{

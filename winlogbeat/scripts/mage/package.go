@@ -25,9 +25,9 @@ import (
 	"github.com/magefile/mage/mg"
 	"github.com/pkg/errors"
 
-	devtools "github.com/elastic/beats/dev-tools/mage"
-	"github.com/elastic/beats/dev-tools/mage/target/build"
-	"github.com/elastic/beats/dev-tools/mage/target/pkg"
+	devtools "github.com/aliksend/beats/dev-tools/mage"
+	"github.com/aliksend/beats/dev-tools/mage/target/build"
+	"github.com/aliksend/beats/dev-tools/mage/target/pkg"
 )
 
 const (

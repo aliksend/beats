@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	_ "github.com/elastic/beats/metricbeat/include"
-	"github.com/elastic/beats/metricbeat/scripts/msetlists"
+	_ "github.com/aliksend/beats/metricbeat/include"
+	"github.com/aliksend/beats/metricbeat/scripts/msetlists"
 )
 
 func main() {

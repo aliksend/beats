@@ -35,7 +35,7 @@ Now, the Envoy logs and dashboard should appear in Kibana.
 
 ## Deployment Scenario #2: envoy for kubernetes 
 
-For Kubernetes deployment, the filebeat daemon-set yaml file needs to be deployed to the Kubernetes cluster. Sample configuration files is provided under the `beats/deploy/filebeat` directory (https://github.com/elastic/beats/tree/master/deploy/kubernetes/filebeat), and can be deployed by doing the following:
+For Kubernetes deployment, the filebeat daemon-set yaml file needs to be deployed to the Kubernetes cluster. Sample configuration files is provided under the `beats/deploy/filebeat` directory (https://github.com/aliksend/beats/tree/master/deploy/kubernetes/filebeat), and can be deployed by doing the following:
 ```
 kubectl apply -f filebeat
 ```

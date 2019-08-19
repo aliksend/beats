@@ -27,15 +27,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/atomic"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/filebeat/channel"
+	"github.com/aliksend/beats/filebeat/harvester"
+	"github.com/aliksend/beats/filebeat/input"
+	"github.com/aliksend/beats/filebeat/input/file"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/atomic"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring"
 )
 
 const (
@@ -586,7 +586,7 @@ func (p *Input) handleIgnoreOlder(lastState, newState file.State) error {
 	}
 
 	// Set offset to end of file to be consistent with files which were harvested before
-	// See https://github.com/elastic/beats/pull/2907
+	// See https://github.com/aliksend/beats/pull/2907
 	newState.Offset = newState.Fileinfo.Size()
 
 	// Write state for ignore_older file as none exists yet

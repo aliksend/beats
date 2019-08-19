@@ -22,8 +22,8 @@ package instance
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring"
 )
 
 func setupLinuxBSDFDMetrics() {

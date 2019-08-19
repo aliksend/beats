@@ -10,14 +10,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	xpackmb "github.com/elastic/beats/x-pack/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/metricbeat/mb"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
+	xpackmb "github.com/aliksend/beats/x-pack/metricbeat/mb"
 
 	// Register input module and metricset
-	_ "github.com/elastic/beats/metricbeat/module/prometheus"
-	_ "github.com/elastic/beats/metricbeat/module/prometheus/collector"
+	_ "github.com/aliksend/beats/metricbeat/module/prometheus"
+	_ "github.com/aliksend/beats/metricbeat/module/prometheus/collector"
 )
 
 func init() {

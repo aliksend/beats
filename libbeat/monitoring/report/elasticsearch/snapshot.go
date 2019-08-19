@@ -18,8 +18,8 @@
 package elasticsearch
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/monitoring"
 )
 
 func makeSnapshot(R *monitoring.Registry) common.MapStr {

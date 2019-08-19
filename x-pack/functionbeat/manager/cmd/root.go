@@ -5,9 +5,9 @@
 package cmd
 
 import (
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/x-pack/functionbeat/manager/beater"
+	cmd "github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/x-pack/functionbeat/manager/beater"
 )
 
 // Name of this beat

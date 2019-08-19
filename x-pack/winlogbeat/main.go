@@ -7,9 +7,9 @@ package main
 import (
 	"os"
 
-	_ "github.com/elastic/beats/winlogbeat/include"
+	_ "github.com/aliksend/beats/winlogbeat/include"
 
-	"github.com/elastic/beats/x-pack/winlogbeat/cmd"
+	"github.com/aliksend/beats/x-pack/winlogbeat/cmd"
 )
 
 func main() {

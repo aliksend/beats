@@ -29,11 +29,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher/pipeline/stress"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/spool"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/publisher/pipeline/stress"
+	_ "github.com/aliksend/beats/libbeat/publisher/queue/memqueue"
+	_ "github.com/aliksend/beats/libbeat/publisher/queue/spool"
 )
 
 // additional flags

@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/libbeat/common"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/elastic/beats/metricbeat/module/apache"
+	_ "github.com/aliksend/beats/metricbeat/module/apache"
 )
 
 // response is a raw response copied from an Apache web server.

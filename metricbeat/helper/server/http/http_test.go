@@ -34,7 +34,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/metricbeat/helper/server"
+	"github.com/aliksend/beats/metricbeat/helper/server"
 )
 
 func TestHTTPServers(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 type Watch interface {

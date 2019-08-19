@@ -14,19 +14,19 @@ By "lightweight", we mean that Beats have a small installation footprint, use
 limited system resources, and have no runtime dependencies.
 
 This repository contains
-[libbeat](https://github.com/elastic/beats/tree/master/libbeat), our Go
+[libbeat](https://github.com/aliksend/beats/tree/master/libbeat), our Go
 framework for creating Beats, and all the officially supported Beats:
 
 Beat  | Description
 --- | ---
-[Auditbeat](https://github.com/elastic/beats/tree/master/auditbeat) | Collect your Linux audit framework data and monitor the integrity of your files.
-[Filebeat](https://github.com/elastic/beats/tree/master/filebeat) | Tails and ships log files
-[Functionbeat](https://github.com/elastic/beats/tree/master/x-pack/functionbeat) | Read and ships events from serverless infrastructure.
-[Heartbeat](https://github.com/elastic/beats/tree/master/heartbeat) | Ping remote services for availability
-[Journalbeat](https://github.com/elastic/beats/tree/master/journalbeat) | Read and ships event from Journald.
-[Metricbeat](https://github.com/elastic/beats/tree/master/metricbeat) | Fetches sets of metrics from the operating system and services
-[Packetbeat](https://github.com/elastic/beats/tree/master/packetbeat) | Monitors the network and applications by sniffing packets
-[Winlogbeat](https://github.com/elastic/beats/tree/master/winlogbeat) | Fetches and ships Windows Event logs
+[Auditbeat](https://github.com/aliksend/beats/tree/master/auditbeat) | Collect your Linux audit framework data and monitor the integrity of your files.
+[Filebeat](https://github.com/aliksend/beats/tree/master/filebeat) | Tails and ships log files
+[Functionbeat](https://github.com/aliksend/beats/tree/master/x-pack/functionbeat) | Read and ships events from serverless infrastructure.
+[Heartbeat](https://github.com/aliksend/beats/tree/master/heartbeat) | Ping remote services for availability
+[Journalbeat](https://github.com/aliksend/beats/tree/master/journalbeat) | Read and ships event from Journald.
+[Metricbeat](https://github.com/aliksend/beats/tree/master/metricbeat) | Fetches sets of metrics from the operating system and services
+[Packetbeat](https://github.com/aliksend/beats/tree/master/packetbeat) | Monitors the network and applications by sniffing packets
+[Winlogbeat](https://github.com/aliksend/beats/tree/master/winlogbeat) | Fetches and ships Windows Event logs
 
 In addition to the above Beats, which are officially supported by
 [Elastic](https://elastic.co), the community has created a set of other Beats
@@ -75,7 +75,7 @@ libbeat packages, by following our [developer
 guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
 After you have a working prototype, open a pull request to add your Beat to the
 list of [community
-Beats](https://github.com/elastic/beats/blob/master/libbeat/docs/communitybeats.asciidoc).
+Beats](https://github.com/aliksend/beats/blob/master/libbeat/docs/communitybeats.asciidoc).
 
 ## Building Beats from the Source
 

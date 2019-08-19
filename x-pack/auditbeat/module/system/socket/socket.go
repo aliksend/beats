@@ -20,14 +20,14 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/common/flowhash"
-	"github.com/elastic/beats/libbeat/logp"
-	sock "github.com/elastic/beats/metricbeat/helper/socket"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/x-pack/auditbeat/cache"
-	"github.com/elastic/beats/x-pack/auditbeat/module/system"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/common/flowhash"
+	"github.com/aliksend/beats/libbeat/logp"
+	sock "github.com/aliksend/beats/metricbeat/helper/socket"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/x-pack/auditbeat/cache"
+	"github.com/aliksend/beats/x-pack/auditbeat/module/system"
 	"github.com/elastic/gosigar/sys/linux"
 )
 

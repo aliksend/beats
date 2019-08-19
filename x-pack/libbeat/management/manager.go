@@ -9,19 +9,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/reload"
-	"github.com/elastic/beats/libbeat/feature"
+	"github.com/aliksend/beats/libbeat/common/reload"
+	"github.com/aliksend/beats/libbeat/feature"
 
 	"github.com/gofrs/uuid"
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/libbeat/management/api"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/x-pack/libbeat/management/api"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/management"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/management"
 )
 
 var errEmptyAccessToken = errors.New("access_token is empty, you must reenroll your Beat")

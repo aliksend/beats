@@ -26,13 +26,13 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/backoff"
-	"github.com/elastic/beats/libbeat/common/kafka"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/filebeat/channel"
+	"github.com/aliksend/beats/filebeat/input"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/backoff"
+	"github.com/aliksend/beats/libbeat/common/kafka"
+	"github.com/aliksend/beats/libbeat/logp"
 
 	"github.com/pkg/errors"
 )
@@ -204,7 +204,7 @@ func arrayForKafkaHeaders(headers []*sarama.RecordHeader) []string {
 // A barebones implementation of context.Context wrapped around the done
 // channels that are more common in the beats codebase.
 // TODO(faec): Generalize this to a common utility in a shared library
-// (https://github.com/elastic/beats/issues/13125).
+// (https://github.com/aliksend/beats/issues/13125).
 type channelCtx <-chan struct{}
 
 func doneChannelContext(ch <-chan struct{}) context.Context {

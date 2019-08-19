@@ -20,12 +20,12 @@ package logstash
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/beat"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/common/cfgwarn"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/outputs/transport"
 )
 
 type Config struct {

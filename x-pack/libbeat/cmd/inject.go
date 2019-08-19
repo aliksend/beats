@@ -5,15 +5,15 @@
 package cmd
 
 import (
-	"github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/logp"
 
 	// register central management
-	"github.com/elastic/beats/x-pack/libbeat/licenser"
-	_ "github.com/elastic/beats/x-pack/libbeat/management"
+	"github.com/aliksend/beats/x-pack/libbeat/licenser"
+	_ "github.com/aliksend/beats/x-pack/libbeat/management"
 
 	// register autodiscover providers
-	_ "github.com/elastic/beats/x-pack/libbeat/autodiscover/providers/aws/elb"
+	_ "github.com/aliksend/beats/x-pack/libbeat/autodiscover/providers/aws/elb"
 )
 
 const licenseDebugK = "license"

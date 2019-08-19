@@ -23,11 +23,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/procfs"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/system"
-	"github.com/elastic/beats/metricbeat/module/system/raid/blockinfo"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb/parse"
+	"github.com/aliksend/beats/metricbeat/module/system"
+	"github.com/aliksend/beats/metricbeat/module/system/raid/blockinfo"
 )
 
 func init() {

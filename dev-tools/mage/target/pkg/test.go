@@ -17,7 +17,7 @@
 
 package pkg
 
-import devtools "github.com/elastic/beats/dev-tools/mage"
+import devtools "github.com/aliksend/beats/dev-tools/mage"
 
 // PackageTest tests the generated packages in build/distributions. It checks
 // things like file ownership/mode, package attributes, etc.

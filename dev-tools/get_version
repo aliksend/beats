@@ -4,7 +4,7 @@ import re
 import argparse
 
 pattern = re.compile(r'(const\s|)\w*(v|V)ersion\s=\s"(?P<version>.*)"')
-vendored_libbeat = os.path.normpath("vendor/github.com/elastic/beats")
+vendored_libbeat = os.path.normpath("vendor/github.com/aliksend/beats")
 
 
 def get_filepath(filename):

@@ -21,15 +21,15 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/pb"
-	"github.com/elastic/beats/packetbeat/procs"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
+	"github.com/aliksend/beats/packetbeat/pb"
+	"github.com/aliksend/beats/packetbeat/procs"
+	"github.com/aliksend/beats/packetbeat/protos"
+	"github.com/aliksend/beats/packetbeat/protos/applayer"
+	"github.com/aliksend/beats/packetbeat/protos/tcp"
 )
 
 type stream struct {

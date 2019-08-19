@@ -18,8 +18,8 @@
 package memory
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/metricbeat/mb"
 )
 
 func eventsMapping(r mb.ReporterV2, memoryDataList []MemoryData) {

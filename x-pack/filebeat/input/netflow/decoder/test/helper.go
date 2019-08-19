@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/record"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/record"
 )
 
 type TestLogWriter struct {

@@ -7,10 +7,10 @@ package provider
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/x-pack/functionbeat/config"
-	"github.com/elastic/beats/x-pack/functionbeat/function/core"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/x-pack/functionbeat/config"
+	"github.com/aliksend/beats/x-pack/functionbeat/function/core"
 )
 
 // DefaultProvider implements the minimal required to retrieve and start functions.

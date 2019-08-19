@@ -14,8 +14,8 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/libbeat/common/backoff"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/common/backoff"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 func mustUUIDV4() uuid.UUID {

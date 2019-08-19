@@ -20,7 +20,7 @@ package autodiscover
 import (
 	"sync"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 // Register of autodiscover providers

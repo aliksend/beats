@@ -10,7 +10,7 @@ RUN set -x && \
 RUN pip install --upgrade setuptools
 
 # Setup work environment
-ENV FUNCTIONBEAT_PATH /go/src/github.com/elastic/beats/x-pack/functionbeat
+ENV FUNCTIONBEAT_PATH /go/src/github.com/aliksend/beats/x-pack/functionbeat
 
 RUN mkdir -p $FUNCTIONBEAT_PATH/build/coverage
 WORKDIR $FUNCTIONBEAT_PATH

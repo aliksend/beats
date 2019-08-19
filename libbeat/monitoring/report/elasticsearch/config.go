@@ -20,9 +20,9 @@ package elasticsearch
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/monitoring/report"
+	"github.com/aliksend/beats/libbeat/monitoring/report"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/aliksend/beats/libbeat/common/transport/tlscommon"
 )
 
 // config is subset of libbeat/outputs/elasticsearch config tailored

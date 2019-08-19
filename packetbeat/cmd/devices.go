@@ -24,7 +24,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/packetbeat/sniffer"
+	"github.com/aliksend/beats/packetbeat/sniffer"
 )
 
 func genDevicesCommand() *cobra.Command {

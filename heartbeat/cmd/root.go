@@ -20,10 +20,10 @@ package cmd
 import (
 	"fmt"
 	// register default heartbeat monitors
-	"github.com/elastic/beats/heartbeat/beater"
-	_ "github.com/elastic/beats/heartbeat/monitors/defaults"
-	cmd "github.com/elastic/beats/libbeat/cmd"
-	"github.com/elastic/beats/libbeat/cmd/instance"
+	"github.com/aliksend/beats/heartbeat/beater"
+	_ "github.com/aliksend/beats/heartbeat/monitors/defaults"
+	cmd "github.com/aliksend/beats/libbeat/cmd"
+	"github.com/aliksend/beats/libbeat/cmd/instance"
 )
 
 // Name of this beat

@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/logp"
 )
 
 /**

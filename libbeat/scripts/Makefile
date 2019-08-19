@@ -3,7 +3,7 @@
 BEAT_NAME?=libbeat## @packaging Name of the binary
 LICENSE?=ASL2
 BEAT_TITLE?=${BEAT_NAME}## @packaging Title of the application
-BEAT_PATH?=github.com/elastic/beats/${BEAT_NAME}
+BEAT_PATH?=github.com/aliksend/beats/${BEAT_NAME}
 BEAT_PACKAGE_NAME?=${BEAT_NAME}
 BEAT_INDEX_PREFIX?=${BEAT_NAME}
 BEAT_URL?=https://www.elastic.co/products/beats/${BEAT_NAME} ## @packaging Link to the homepage of the application
@@ -12,7 +12,7 @@ BEAT_LICENSE?=ASL 2.0 ## @packaging Software license of the application
 BEAT_VENDOR?=Elastic ## @packaging Name of the vendor of the application
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 BEAT_REF_YAML?=true
-ES_BEATS?=..## @community_beat Must be set to ./vendor/github.com/elastic/beats. It must always be a relative path.
+ES_BEATS?=..## @community_beat Must be set to ./vendor/github.com/aliksend/beats. It must always be a relative path.
 GOPACKAGES?=$(shell go list ${BEAT_PATH}/... | grep -v /vendor/ | grep -v /scripts/cmd/ )
 PACKER_TEMPLATES_DIR?=${ES_BEATS}/dev-tools/packer ## @Building Directory of templates that are used by "make release"
 NOTICE_FILE?=../NOTICE.txt
@@ -22,7 +22,7 @@ SECCOMP_BINARY?=${BEAT_NAME}
 SECCOMP_BLACKLIST?=${ES_BEATS}/libbeat/common/seccomp/seccomp-profiler-blacklist.txt
 SECCOMP_ALLOWLIST?=${ES_BEATS}/libbeat/common/seccomp/seccomp-profiler-allow.txt
 MAGE_PRESENT := $(shell command -v mage 2> /dev/null)
-MAGE_IMPORT_PATH?=github.com/elastic/beats/vendor/github.com/magefile/mage
+MAGE_IMPORT_PATH?=github.com/aliksend/beats/vendor/github.com/magefile/mage
 export MAGE_IMPORT_PATH
 
 space:=$() #
@@ -43,12 +43,12 @@ PKG_BUILD_DIR?=$(BUILD_DIR)/package${PKG_SUFFIX}
 PKG_UPLOAD_DIR?=$(BUILD_DIR)/upload
 COVERAGE_DIR?=${BUILD_DIR}/coverage
 COVERAGE_TOOL?=${BEAT_GOPATH}/bin/gotestcover
-COVERAGE_TOOL_REPO?=github.com/elastic/beats/vendor/github.com/pierrre/gotestcover
-TESTIFY_TOOL_REPO?=github.com/elastic/beats/vendor/github.com/stretchr/testify/assert
+COVERAGE_TOOL_REPO?=github.com/aliksend/beats/vendor/github.com/pierrre/gotestcover
+TESTIFY_TOOL_REPO?=github.com/aliksend/beats/vendor/github.com/stretchr/testify/assert
 NOW=$(shell date -u '+%Y-%m-%dT%H:%M:%SZ')
-GOBUILD_FLAGS?=-i -ldflags "-X github.com/elastic/beats/libbeat/version.buildTime=$(NOW) -X github.com/elastic/beats/libbeat/version.commit=$(COMMIT_ID)"
+GOBUILD_FLAGS?=-i -ldflags "-X github.com/aliksend/beats/libbeat/version.buildTime=$(NOW) -X github.com/aliksend/beats/libbeat/version.commit=$(COMMIT_ID)"
 GOIMPORTS=goimports
-GOIMPORTS_REPO?=github.com/elastic/beats/vendor/golang.org/x/tools/cmd/goimports
+GOIMPORTS_REPO?=github.com/aliksend/beats/vendor/golang.org/x/tools/cmd/goimports
 GOIMPORTS_LOCAL_PREFIX?=github.com/elastic
 GOLINT=golint
 GOLINT_REPO?=golang.org/x/lint/golint
@@ -67,7 +67,7 @@ GOX_OS?=linux darwin windows freebsd netbsd openbsd ## @Building List of all OS 
 GOX_OSARCH?=!darwin/arm !darwin/arm64 !darwin/386 ## @building Space separated list of GOOS/GOARCH pairs to build by "make crosscompile".
 GOX_FLAGS?= ## @building Additional flags to append to the gox command used by "make crosscompile".
 # XXX: Should be switched back to `snapshot` once the Elasticsearch
-# snapshots are working. https://github.com/elastic/beats/pull/6416
+# snapshots are working. https://github.com/aliksend/beats/pull/6416
 TESTING_ENVIRONMENT?=snapshot## @testing The name of the environment under test
 BEAT_VERSION=$(shell head -n 1 ${ES_BEATS}/libbeat/docs/version.asciidoc | cut -c 17- )
 COMMIT_ID=$(shell git rev-parse HEAD)
@@ -412,7 +412,7 @@ help_variables: ## @help Show Makefile customizable variables.
 # SECCOMP_BINARY.
 .PHONY: seccomp
 seccomp:
-	@go get github.com/elastic/beats/vendor/github.com/elastic/go-seccomp-bpf/cmd/seccomp-profiler
+	@go get github.com/aliksend/beats/vendor/github.com/elastic/go-seccomp-bpf/cmd/seccomp-profiler
 	@test -f ${SECCOMP_BINARY} || (echo "${SECCOMP_BINARY} binary is not built."; false)
 	seccomp-profiler \
 	-b "$(shell grep -v ^# "${SECCOMP_BLACKLIST}")" \

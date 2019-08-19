@@ -7,9 +7,9 @@ package ipfix
 import (
 	"log"
 
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/config"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/protocol"
-	"github.com/elastic/beats/x-pack/filebeat/input/netflow/decoder/v9"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/config"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/protocol"
+	"github.com/aliksend/beats/x-pack/filebeat/input/netflow/decoder/v9"
 )
 
 const (

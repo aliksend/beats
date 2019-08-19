@@ -21,14 +21,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/monitoring"
 	"github.com/elastic/ecs/code/go/ecs"
 
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/pb"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/aliksend/beats/packetbeat/flows"
+	"github.com/aliksend/beats/packetbeat/pb"
+	"github.com/aliksend/beats/packetbeat/protos"
 
 	"github.com/tsg/gopacket/layers"
 )

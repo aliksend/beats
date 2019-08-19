@@ -7,12 +7,12 @@ package ebs
 import (
 	"os"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	xpackmb "github.com/elastic/beats/x-pack/metricbeat/mb"
+	"github.com/aliksend/beats/metricbeat/mb"
+	xpackmb "github.com/aliksend/beats/x-pack/metricbeat/mb"
 
 	// Register input module and metricset
-	_ "github.com/elastic/beats/x-pack/metricbeat/module/aws"
-	_ "github.com/elastic/beats/x-pack/metricbeat/module/aws/cloudwatch"
+	_ "github.com/aliksend/beats/x-pack/metricbeat/module/aws"
+	_ "github.com/aliksend/beats/x-pack/metricbeat/module/aws/cloudwatch"
 )
 
 func init() {

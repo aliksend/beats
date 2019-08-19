@@ -23,12 +23,12 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/elastic/beats/journalbeat/checkpoint"
-	"github.com/elastic/beats/journalbeat/reader"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/aliksend/beats/journalbeat/checkpoint"
+	"github.com/aliksend/beats/journalbeat/reader"
+	"github.com/aliksend/beats/libbeat/beat"
+	"github.com/aliksend/beats/libbeat/common"
+	"github.com/aliksend/beats/libbeat/logp"
+	"github.com/aliksend/beats/libbeat/processors"
 )
 
 // Input manages readers and forwards entries from journals.

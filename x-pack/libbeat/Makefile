@@ -1,5 +1,5 @@
 BEAT_NAME?=libbeat
-BEAT_PATH?=github.com/elastic/beats/x-pack/${BEAT_NAME}
+BEAT_PATH?=github.com/aliksend/beats/x-pack/${BEAT_NAME}
 ES_BEATS?=../..
 LICENSE=Elastic
 SYSTEM_TESTS?=true

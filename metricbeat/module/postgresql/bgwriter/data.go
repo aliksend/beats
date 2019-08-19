@@ -20,8 +20,8 @@ package bgwriter
 import (
 	"time"
 
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstrstr"
+	s "github.com/aliksend/beats/libbeat/common/schema"
+	c "github.com/aliksend/beats/libbeat/common/schema/mapstrstr"
 )
 
 var schema = s.Schema{

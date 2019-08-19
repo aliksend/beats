@@ -27,7 +27,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/metricbeat/cmd"
+	"github.com/aliksend/beats/metricbeat/cmd"
 )
 
 func main() {

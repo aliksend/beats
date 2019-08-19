@@ -254,8 +254,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/aliksend/beats/libbeat/tests/compose"
+	mbtest "github.com/aliksend/beats/metricbeat/mb/testing"
 )
 
 func TestFetch(t *testing.T) {
@@ -325,7 +325,7 @@ TODO: The following parts should be added as soon as the content exists or the i
 
 [float]
 == Field naming
-https://github.com/elastic/beats/blob/master/metricbeat/module/doc.go
+https://github.com/aliksend/beats/blob/master/metricbeat/module/doc.go
 
 [float]
 == Dashboards
