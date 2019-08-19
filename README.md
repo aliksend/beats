@@ -85,3 +85,30 @@ your dev environment to build Beats from the source.
 ## Snapshots
 
 For testing purposes, we generate snapshot builds that you can find [here](https://beats-ci.elastic.co/job/elastic+beats+master+multijob-package-linux/lastSuccessfulBuild/gcsObjects/). Please be aware that these are built on top of master and are not meant for production.
+
+## About fork
+
+Added [simplerity](https://simplerity.com/) integration to packetbeat.
+To use it you should create file `agent_credentials.json` with your agent credentials. You can ask it from your manager.
+
+Then follow steps:
+
+```bash
+# step 1: login
+> packetbeat simplerity login --login YOUR_SIMPLERITY_LOGIN --password YOUR_SIMPLERITY_PASSWORD
+Authorized. Now you should select agent to use:
+863: demo
+766: sergey-dev
+Use `packetbeat simplerity select --agent AGENT_ID` to select agent
+
+# step 2: select agent
+> packetbeat simplerity select --agent 863
+Agent selected. Now you can download configuration using `packetbeat simplerity load`
+
+# step 3: download config
+> packetbeat simplerity load
+Config downloaded. Now you can launch packetbeat using `packetbeat --c packetbeat.yml run`
+
+# step 4: run packetbeat
+> packetbeat run
+```

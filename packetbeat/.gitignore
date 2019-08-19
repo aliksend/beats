@@ -30,3 +30,5 @@ _testmain.go
 
 *.test
 
+agent_credentials.json
+user_credentials.json

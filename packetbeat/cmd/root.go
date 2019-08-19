@@ -46,4 +46,5 @@ func init() {
 
 	RootCmd = cmd.GenRootCmdWithSettings(beater.New, instance.Settings{RunFlags: runFlags, Name: Name})
 	RootCmd.AddCommand(genDevicesCommand())
+	RootCmd.AddCommand(simplerityCommand())
 }
